@@ -36,7 +36,7 @@ public class fetchData
 		 //Fetch Data from database and print in the console +++++++ 
 		 MongoClient mongo = new MongoClient("localhost", 27017);
 		 MongoDatabase database = mongo.getDatabase("studentinformation");
-		 MongoCollection<Document> doc = database.getCollection("strecord");
+		 MongoCollection<Document> doc = database.getCollection("stinfo");
 		 System.out.println("Connected");
 		 
 		 //List list = new ArrayList();

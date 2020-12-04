@@ -59,9 +59,9 @@ public class studentdb
 					  .append("description","database")
 					  .append("like", 100);
 					  
-			  System.out.println("Append "); 
-			  for (String name : database.listCollectionNames()) { 
-			         System.out.println(name); }
+			  System.out.println("Append"); 
+			  //for (String name : database.listCollectionNames()) { 
+			        // System.out.println(name); }
 			  
 			//  collection.insertOne(temp);
 			 // System.out.println("inserted successfully"); 
@@ -70,9 +70,9 @@ public class studentdb
 			  
 			  
 			    
-			mongo.dropDatabase("mydb");
+			//mongo.dropDatabase("mydb");
 			
-			mongo.close(); 
+			//mongo.close(); 
 			
 					  
 		}
